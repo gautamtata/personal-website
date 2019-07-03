@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Box } from '@smooth-ui/core-sc';
 
 import * as Styled from './Portfolio.style';
-import runTrackerPosts from '../../img/run-tracker/post.jpg';
-import newsDigestResults from '../../img/news-digest/search-results.jpg';
-import recipesResults from '../../img/recipe-builder/fruit-bowl.jpg';
-import quizzOpeningPage from '../../img/soundtrack-quizz/opening-page.jpg';
+import proofchecker from '../../img/proofchecker.png';
+import pgmuseum from '../../img/pgmuseum.png';
+import carscan from '../../img/car-scan.gif';
+import jsmaps from '../../img/jsmaps.png';
 import { Javascript, Html, Css, Node, Mongodb, Jquery, ReactIcon, Heroku, GithubPages } from '../index';
 
 const Portfolio = () => (
@@ -45,14 +45,14 @@ const Portfolio = () => (
             >
               Feel free to contact me at&nbsp;
               <a 
-                href="mailto:ivan@ispoljaric.com?subject=Business proposal"
-                aria-label="Send email to ivan@ispoljaric.com"
+                href="mailto:gautam@gautamtata.com?subject=Open positions at "
+                aria-label="Send email to gautam@gautamtata.com"
               >
                 <span
                   className="email-link_content"
                   tabIndex="-1"
                 >
-                  ivan@ispoljaric.com
+                  gautam@gautamtata.com
                 </span>
               </a>.
             </Styled.Paragraph>        
@@ -74,8 +74,8 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-              src={runTrackerPosts} 
-              alt="Run Tracker app screenshot showing an example post box"
+              src={proofchecker} 
+              alt="Screenshot showing landing page of proofchecker"
               style={{
                 width:"100%",
                 display: "block",
@@ -90,28 +90,22 @@ const Portfolio = () => (
             pl={{xl:"30px"}}
           >
             <Styled.SectionHeading>
-              Run Tracker
+              Logic Proof Checker
             </Styled.SectionHeading>     
             <Styled.UsedTech
               display="flex"
               mt="5px"
             >
-              <Javascript />
-              <Html />
-              <Css />
-              <Node />
-              <Mongodb />
-              <Heroku />
             </Styled.UsedTech>
             <Styled.Paragraph>
-            The app allows users to log their running activity and share it with others on the platform. The design is retro-cartoonish, inspired by glitch.com.
+            A proof checking tool for Logic that saves teaching assistants hours of grading time.
             </Styled.Paragraph>
             <Styled.ProjectLinks>
               <a 
-                href="https://github.com/ispoljari/run-tracker-app"
+                href="https://github.com/gautamtata/logic-proof-checker"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Run tracker code"
+                aria-label="Logic proof checker"
               >
                 <span
                   className="project-link_content"
@@ -121,16 +115,16 @@ const Portfolio = () => (
                 </span>
               </a>
               <a 
-                href="https://pure-peak-20096.herokuapp.com/"
+                href="https://gautamtata.github.io/logic-proof-checker/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Run tracker live app"
+                aria-label="proof checker live app"
               >
                 <span
                   className="project-link_content"
                   tabIndex="-1"
                 >
-                  View Project
+                  View Demo
                 </span>
               </a>
             </Styled.ProjectLinks>
@@ -148,8 +142,8 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-              src={newsDigestResults} 
-              alt="News digest app screenshot showing the results of a search"
+              src={pgmuseum} 
+              alt="Pacific grove museum project screenshot"
               style={{
                 width:"100%",
                 display: "block",
@@ -164,27 +158,22 @@ const Portfolio = () => (
             pl={{xl:"30px"}}
           >     
             <Styled.SectionHeading>
-              News Digest
+              Pacific grove climate data viz
             </Styled.SectionHeading>  
             <Styled.UsedTech
               display="flex"
               mt="5px"
             >
-              <Javascript />
-              <Jquery />
-              <Html />
-              <Css />
-              <GithubPages/>
             </Styled.UsedTech>
             <Styled.Paragraph>
-            With this app the user can search through millions of articles from various news sources and blogs, and filter them by selecting different categories.
+            Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
             </Styled.Paragraph>
             <Styled.ProjectLinks>
               <a 
-                href="https://github.com/ispoljari/news-digest-app"
+                href="https://github.com/gautamtata/watershed-guardians"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="News digest code"
+                aria-label="watershed guardians code"
               >
                 <span
                   className="project-link_content"
@@ -194,10 +183,10 @@ const Portfolio = () => (
                 </span>
               </a>
               <a 
-                href="https://ispoljari.github.io/news-digest-app/"
+                href="https://gautamtata.github.io/watershed-guardians/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="News digest live app"
+                aria-label="watershed guardians live app"
               >
                 <span
                   className="project-link_content"
@@ -221,8 +210,8 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-              src={recipesResults} 
-              alt="A screenshot of a fruit bowl"
+              src={carscan} 
+              alt=""
               style={{
                 width:"100%",
                 display: "block",
@@ -237,46 +226,29 @@ const Portfolio = () => (
             pl={{xl:"30px"}}
           >        
             <Styled.SectionHeading>
-              Recipe Builder
+             License plate OCR
             </Styled.SectionHeading>
             <Styled.UsedTech
               display="flex"
               mt="5px"
             >
-              <Javascript />
-              <ReactIcon />
-              <Html />
-              <Css />
-              <Heroku />
+              
             </Styled.UsedTech>
             <Styled.Paragraph>
-            This app is intended for anyone that needs cooking inspiration. The user can take a picture of the ingredients and the app returns a list of related recipes.
+            A CLI tool that is used for recognizing characters on a Number plate using a sliding window.
             </Styled.Paragraph>
             <Styled.ProjectLinks>
               <a 
-                href="https://github.com/ispoljari/react-recipe-builder-app"
+                href="https://github.com/gautamtata/License-Plate-reader"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Recipe builder code"
+                aria-label="License plate code"
               >
                 <span
                   className="project-link_content"
                   tabIndex="-1"
                 >
                   View Code
-                </span>
-              </a>
-              <a 
-                href="https://limitless-cove-25974.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Recipe builder live app"
-              >
-                <span
-                  className="project-link_content"
-                  tabIndex="-1"
-                >
-                  View Project
                 </span>
               </a>
             </Styled.ProjectLinks>
@@ -294,8 +266,8 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-              src={quizzOpeningPage} 
-              alt="Soundtrack quizz app opening page screenshot"
+              src={jsmaps} 
+              alt="jsmaps screenshot"
               style={{
                 width:"100%",
                 display: "block",
@@ -310,27 +282,23 @@ const Portfolio = () => (
             pl={{xl:"30px"}}
           >        
             <Styled.SectionHeading>
-              Soundtracks Quizz
+              JS annotatable maps
             </Styled.SectionHeading>
             <Styled.UsedTech
               display="flex"
               mt="5px"
             >
-              <Javascript />
-              <Jquery />
-              <Html />
-              <Css />
-              <GithubPages/>
+              
             </Styled.UsedTech>
             <Styled.Paragraph>
-              A quiz consisting of 10 questions. The topic is soundtrack music from movies, tv-shows and games.
+             A tool that makes it easy for developers to customize events and interactions on a map.
             </Styled.Paragraph>
             <Styled.ProjectLinks>
               <a 
-                href="https://github.com/ispoljari/quiz-app"
+                href="https://github.com/gautamtata/JSMaps"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Soundtracks quizz code"
+                aria-label="jsmaps code"
               >
                 <span
                   className="project-link_content"
@@ -340,10 +308,10 @@ const Portfolio = () => (
                 </span>
               </a>
               <a 
-                href="https://ispoljari.github.io/quiz-app/"
+                href="https://js-annotated-maps.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Soundtracks quizz live app"
+                aria-label="js maps live app"
               >
                 <span
                   className="project-link_content"

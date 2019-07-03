@@ -3,7 +3,9 @@ import { Box, Row, Col } from '@smooth-ui/core-sc';
 import TextLoop from 'react-text-loop';
 
 import * as Styled from './Home.style';
+
 import { Linkedin, Github, Medium, Gmail } from '../index';
+import ProfilePic from '../../gautam-1.gif'
 
 const Home = () => (
   <React.Fragment>  
@@ -31,7 +33,7 @@ const Home = () => (
             Hello World.&nbsp;
             <br className="break-large"/>
             My name is
-            Ivan Špoljarić.&nbsp;
+            Gautam Tata.&nbsp;
             <br className="break-large"/>
             I'm&nbsp;
             <br className="break-under-xs"/>
@@ -41,55 +43,38 @@ const Home = () => (
               mask
             >
               <span>
-                a Web Developer
+                a Fullstack developer
               </span>
               <span>
                 an Engineer
               </span>
               <span>
-                a Spotify Addict
+                UI/UX enthusiast
               </span>
               <span>
                 a Coffee Lover
               </span>
               <span>
-                a Netflix Binger
+                a Student of the game
               </span>
               <span>
-                a SciFi Fan
+                a Team player
               </span>
               <span>
                 a Tech Geek
               </span>
-              <span>
-                a Kona Rider
-              </span>
-              <span>
-                a Book Worm
-              </span>
             </TextLoop>&nbsp;
             <br className="break-small"/>
-            from&nbsp;
-            <span>
-              <a
-                href="https://www.google.com/maps/place/Zagreb/@45.8401104,15.8242483,11z/data=!3m1!4b1!4m5!3m4!1s0x4765d692c902cc39:0x3a45249628fbc28a!8m2!3d45.8150108!4d15.9819189"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="city-link"
-                aria-label="Location of Zagreb google maps"
-              >
-                <span
-                  tabIndex="-1"
-                  className="city-link_content"
-                >
-                  Zagreb.
-                </span>
-              </a>
-            </span>
           </Styled.Heading>
         </Box>
       </Col>
     </Row>
+    <img 
+      className="profile-pic" 
+      alt = "profile-pic" 
+      style = {{"height": "300px","position": "absolute","left": "1000px","bottom": "150px"}}
+      src={ProfilePic}>
+    </img>
     <Row
       mx={0}
       mt={{xs: "20px", md: "35px", lg:"45px"}}
@@ -115,7 +100,7 @@ const Home = () => (
           mb={15}
         >
           <Styled.SocialLink 
-            href="https://www.linkedin.com/in/ivan-špoljarić-2206a184
+            href="https://www.linkedin.com/in/gautam-tata-b91b20118/
             "
             target="_blank"
             rel="noopener noreferrer"
@@ -129,7 +114,7 @@ const Home = () => (
             </span>
           </Styled.SocialLink >
           <Styled.SocialLink  
-            href="https://github.com/ispoljari"
+            href="https://github.com/gautamtata"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github page"
@@ -142,7 +127,18 @@ const Home = () => (
             </span>
           </Styled.SocialLink >
           <Styled.SocialLink  
-            href="https://medium.com/@ivanspoljaric22"
+            href="mailto:gautam@gautamtata.com?subject=Job Opportunitiy"
+            aria-label="Send email to gautam@gautamtata.com"
+          >
+            <span
+              className="social-link_content"
+              tabIndex="-1"
+            >
+              <Gmail />
+            </span>
+          </Styled.SocialLink >
+          <Styled.SocialLink  
+            href="https://medium.com/@gautamtata"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Medium page"
@@ -152,17 +148,6 @@ const Home = () => (
               tabIndex="-1"
             >
               <Medium />
-            </span>
-          </Styled.SocialLink >
-          <Styled.SocialLink  
-            href="mailto:ivan@ispoljaric.com?subject=Business proposal"
-            aria-label="Send email to ivan@ispoljaric.com"
-          >
-            <span
-              className="social-link_content"
-              tabIndex="-1"
-            >
-              <Gmail />
             </span>
           </Styled.SocialLink >
         </Box>

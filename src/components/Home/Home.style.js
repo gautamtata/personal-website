@@ -156,6 +156,14 @@ export const SocialLink = styled.a`
     }
   }
 
+  .profile-pic {
+    height: 300px;
+    position: absolute;
+    left: 1000px;
+    bottom: 150px;
+
+  }
+
   svg {
     display: block;
     height: 100%;
