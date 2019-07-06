@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0156d1687543ee52e7765fae725ce663",
-    "url": "/personal-website/static/media/spinning-wheel.0156d168.png"
+    "revision": "292858ea104e741a2fd64a6c101ad505",
+    "url": "/personal-website/static/media/logo.292858ea.svg"
   },
   {
-    "revision": "301e2022b1c6b4bad20d",
+    "revision": "cee783079075ae43dc4e",
     "url": "/personal-website/static/css/main.d3df292e.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = [
     "url": "/personal-website/static/js/runtime~main.22175ee0.js"
   },
   {
-    "revision": "291d9ce53f10c29165da",
-    "url": "/personal-website/static/js/2.291d9ce5.chunk.js"
+    "revision": "57106aedef38e0e82099",
+    "url": "/personal-website/static/js/2.57106aed.chunk.js"
   },
   {
     "revision": "c878d195541aefd0ad5675201a8d7af9",
     "url": "/personal-website/static/media/gautam-1.c878d195.gif"
   },
   {
-    "revision": "301e2022b1c6b4bad20d",
-    "url": "/personal-website/static/js/main.301e2022.chunk.js"
+    "revision": "cee783079075ae43dc4e",
+    "url": "/personal-website/static/js/main.cee78307.chunk.js"
   },
   {
     "revision": "a648964505687cb53c02fd74d96a1e85",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/personal-website/static/media/jsmaps.3b17e72e.png"
   },
   {
-    "revision": "99d15535d259685e85029ef5a21a8341",
+    "revision": "678f17b1617bf8dd20bb2e18a45771d0",
     "url": "/personal-website/index.html"
   }
 ];
