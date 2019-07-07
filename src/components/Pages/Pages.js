@@ -28,6 +28,12 @@ class Pages extends Component {
               <Switch 
                 location={location}
               >
+                <Route
+                  exact
+                  path="/"
+                  component={Home}
+                />  
+        
                 <Route 
                   exact 
                   path="/home" 

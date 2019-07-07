@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from '@smooth-ui/core-sc';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import Home from '../Home/Home'
 import GlobalStyle from '../../global.style';
 import * as Styled from './App.style';
 import { Pages, Navigation, ScrollToTop } from '../index';
