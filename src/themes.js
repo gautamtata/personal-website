@@ -1,10 +1,10 @@
 const theme = {
   dark: {
-    backgroundColor: 'purple',
+    backgroundColor: 'black',
     navBackground: 'white',
     navLinkColor: '#191919',
     logoColor: 'yellow',
-    color: 'rgba(249, 105, 14, 1)'
+    color: 'turquoise'
   },
   light: {
     backgroundColor: 'black',

@@ -6,7 +6,7 @@ import proofchecker from '../../img/proofchecker.png';
 import pgmuseum from '../../img/pgmuseum.png';
 import carscan from '../../img/car-scan.gif';
 import jsmaps from '../../img/jsmaps.png';
-import { Javascript, Html, Css, Node, Mongodb, Jquery, ReactIcon, Heroku, GithubPages } from '../index';
+
 
 const Portfolio = () => (
   <Row
@@ -36,12 +36,15 @@ const Portfolio = () => (
             xs={12}
           >
             <Styled.SectionHeading
+             style = {{"color" : "white"}}
               as="h1"
+              
             >
               I'm currently looking for work!
             </Styled.SectionHeading> 
             <Styled.Paragraph
               email
+              white
             >
               Feel free to contact me at&nbsp;
               <a 
@@ -89,18 +92,16 @@ const Portfolio = () => (
             xl={6}
             pl={{xl:"30px"}}
           >
-            <Styled.SectionHeading>
+            <Styled.SectionHeading 
+            style = {{"color" : "white"}}
+            >
               Logic Proof Checker
             </Styled.SectionHeading>     
-            <Styled.UsedTech
-              display="flex"
-              mt="5px"
-            >
-            </Styled.UsedTech>
-            <Styled.Paragraph>
+            
+            <Styled.Paragraph style = {{"color" : "white"}}>
             A proof checking tool for Logic that saves teaching assistants hours of grading time.
             </Styled.Paragraph>
-            <Styled.ProjectLinks>
+            <Styled.ProjectLinks white>
               <a 
                 href="https://github.com/gautamtata/logic-proof-checker"
                 target="_blank"
@@ -157,18 +158,14 @@ const Portfolio = () => (
             xl={6}
             pl={{xl:"30px"}}
           >     
-            <Styled.SectionHeading>
+            <Styled.SectionHeading style = {{"color" : "white"}}>
               Pacific grove climate data viz
             </Styled.SectionHeading>  
-            <Styled.UsedTech
-              display="flex"
-              mt="5px"
-            >
-            </Styled.UsedTech>
-            <Styled.Paragraph>
+            
+            <Styled.Paragraph white>
             Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
             </Styled.Paragraph>
-            <Styled.ProjectLinks>
+            <Styled.ProjectLinks white>
               <a 
                 href="https://github.com/gautamtata/watershed-guardians"
                 target="_blank"
@@ -225,19 +222,14 @@ const Portfolio = () => (
             xl={6}
             pl={{xl:"30px"}}
           >        
-            <Styled.SectionHeading>
+            <Styled.SectionHeading style = {{"color" : "white"}}>
              License plate OCR
             </Styled.SectionHeading>
-            <Styled.UsedTech
-              display="flex"
-              mt="5px"
-            >
-              
-            </Styled.UsedTech>
-            <Styled.Paragraph>
+          
+            <Styled.Paragraph white>
             A CLI tool that is used for recognizing characters on a Number plate using a sliding window.
             </Styled.Paragraph>
-            <Styled.ProjectLinks>
+            <Styled.ProjectLinks white>
               <a 
                 href="https://github.com/gautamtata/License-Plate-reader"
                 target="_blank"
@@ -281,19 +273,14 @@ const Portfolio = () => (
             xl={6}
             pl={{xl:"30px"}}
           >        
-            <Styled.SectionHeading>
+            <Styled.SectionHeading style = {{"color" : "white"}}>
               JS annotatable maps
             </Styled.SectionHeading>
-            <Styled.UsedTech
-              display="flex"
-              mt="5px"
-            >
-              
-            </Styled.UsedTech>
-            <Styled.Paragraph>
+            
+            <Styled.Paragraph white>
              A tool that makes it easy for developers to customize events and interactions on a map.
             </Styled.Paragraph>
-            <Styled.ProjectLinks>
+            <Styled.ProjectLinks white>
               <a 
                 href="https://github.com/gautamtata/JSMaps"
                 target="_blank"
