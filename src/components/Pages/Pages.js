@@ -30,7 +30,7 @@ class Pages extends Component {
               >
                 <Route 
                   exact 
-                  path="/" 
+                  path="/home" 
                   component={Home}
                 />
                 <Route 

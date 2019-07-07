@@ -27,7 +27,7 @@ const Navigation = ({ location }) => (
       > 
       <li>  
           <Link 
-            to="/"
+            to="/home"
             aria-label="About page"
           >
             <span

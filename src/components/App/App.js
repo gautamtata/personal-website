@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   changeTheme = ({ pathname: page }) => {
-    if (this.state.theme !== theme.dark && page === '/') {
+    if (this.state.theme !== theme.dark && page === '/home') {
       this.setState({
         theme: theme.dark,
       });
