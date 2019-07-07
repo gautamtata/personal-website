@@ -3,7 +3,6 @@ import { Box } from '@smooth-ui/core-sc';
 import { Link } from 'react-router-dom'; 
 import { withRouter } from 'react-router-dom';
 
-import Logo from '../Logo/logo.svg';
 import * as Styled from './Navigation.style';
 
 const Navigation = ({ location }) => (
@@ -22,26 +21,12 @@ const Navigation = ({ location }) => (
       alignItems="center"
       p="10px 0 10px 10px"
     >
-      <Styled.LogoLink
-        to="/"
-        aria-label="Home page"
-      >
-        <span
-          className="logo-link_content"
-          tabIndex="-1"
-        >
-          <img 
-            className='logo'
-            alt='logo' 
-            style={{"height":"100px","width":"100px"}}
-            src= {Logo} />
-        </span>
-      </Styled.LogoLink>
+
       <Styled.NavList
         page={location.pathname}
-      >
-        <li>
-        <Link 
+      > 
+      <li>  
+          <Link 
             to="/"
             aria-label="About page"
           >

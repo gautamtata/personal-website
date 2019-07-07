@@ -51,7 +51,7 @@ export const NavList = styled.ul`
         
         ${props => {
             return (
-              props.page === '/about' &&
+              props.page === '/' &&
                 css`
                   color: turquoise;
                   -webkit-text-stroke: 1px turquoise;
@@ -68,6 +68,23 @@ export const NavList = styled.ul`
         
         ${props => {
             return (
+              props.page === '/about' &&
+                css`
+                  color: turquoise;
+                  -webkit-text-stroke: 1px turquoise;
+                `
+            )
+        }};
+      }
+    }
+
+    :nth-child(3) {
+      a {
+        color: ${props => props.theme.navLinkColor};
+
+        
+        ${props => {
+            return (
               props.page === '/portfolio' &&
                 css`
                   color: turquoise;
@@ -78,8 +95,11 @@ export const NavList = styled.ul`
       }
     }
 
+  
+
     :nth-child(1),
-    :nth-child(2) {
+    :nth-child(2),
+    :nth-child(3) {
       a {
         :hover {
           color: turquoise;

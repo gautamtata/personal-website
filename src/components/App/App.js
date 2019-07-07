@@ -9,7 +9,7 @@ import { Pages, Navigation, ScrollToTop } from '../index';
 import { hideLoader, FONT_LATO, FONT_PLAYFAIR } from '../../util';
 import theme from '../../themes';
 
-import '../../mobile.css'
+
 
 class App extends Component {
   state = {
