@@ -215,7 +215,7 @@ const About = () => (
             <Styled.Paragraph
               white
             >
-              "The one's who are crazy enough to change the world are the one's who do."
+             “The people who are crazy enough to think they can change the world are the ones who do.”
               <br />
               <br />              
               - Steve Jobs&nbsp;
