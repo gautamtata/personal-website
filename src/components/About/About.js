@@ -118,8 +118,7 @@ const About = () => (
               <br/>
               <br/> 
               I’ve always sought out opportunities and challenges that are meaningful to me. Whether it is working at a museum to help the locals understand the effects of climate change or working with professors to save hours on grading - I've never stopped engaging my passion to help others and solve problems
-              <br />
-              Tech Stack : JS, Python, MongoDB, Node.js
+              
             </Styled.Paragraph>
           </Col>
         </Row>
