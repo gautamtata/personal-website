@@ -101,9 +101,9 @@ const About = () => (
             <Styled.SectionHeading
               white
             >
-               The&nbsp;
+               What I &nbsp;
               <br className="break-large"/>
-              FullStack&nbsp;
+              Am About&nbsp;
              
             </Styled.SectionHeading>
           </Col>
@@ -114,11 +114,10 @@ const About = () => (
             <Styled.Paragraph
               white
             >
-              I started coding in my first year in college. Back when I thought that everything ran via an "if-else" block.
+              I want to build things that make a difference. A Change. Whether it's for 1 person in a small town in California or the whole freaking world.
               <br/>
               <br/> 
-              I got into frontend developement when I realized there is a need for building amazing user experiences.
-              Currently, Something else that I'm learning is Machine Learning on the client side.
+              I’ve always sought out opportunities and challenges that are meaningful to me. Whether it is working at a museum to help the locals understand the effects of climate change or working with professors to save hours on grading - I've never stopped engaging my passion to help others and solve problems
               <br />
               Tech Stack : JS, Python, MongoDB, Node.js
             </Styled.Paragraph>
@@ -137,9 +136,9 @@ const About = () => (
           justifyContent={{xs: 'left', md: "center"}}
           >
             <Styled.SectionHeading white>
-              Web&nbsp;
+              The Full&nbsp;
               <br className="break-large"/>
-              Developer&nbsp;
+              Stack&nbsp;
             </Styled.SectionHeading>
           </Col>
           <Col
@@ -147,10 +146,12 @@ const About = () => (
           md={8}
           >
             <Styled.Paragraph white>
-              I became passionate about Web development after I graduated from college. I started spending a lot of my time online, on websites like TechCrunch and Hacker News. After seeing all those cool apps, innovative startups, and brilliant developers changing our technological landscape on a daily basis, I decided I wanted to become a part of that disruptive movement.
+            I became more passionate about Full stack development in my senior year in college. At this time, I was spending a lot of time reading documentation, other peoples code or reading HackerNews. 
+             
               <br/>
               <br/> 
-              So in the last year and half I learned a lot of cool stuff related to front-end and back-end development. I used that knowledge to build my portfolio and this website. I know a lot about NodeJS, ExpressJS, MongoDB, jQuery, React, Redux, Bootstrap, Mocha, Chai, Enzyme, HTML, CSS, CSS-in-JS, TDD, responsive design, progressive enhancement, graceful degradation, a11y, mobile-first design, continuous integration, code transpiling, module bundling, RESTful architecture, API's and more.  
+              Living in the Bay area, I was regularly meeting with these incredible engineers from all backgrounds who are changing the landscape of technology right in front our eyes and I get an adrenaline rush when I think that I could be a part of that.
+              I mainly picked up full-stack thru MOOC's and learned Python, JavaScript ReactJS, NodeJS, ExpressJS, MongoDB, jQuery, Redux, Bootstrap, Mocha, mobile-first design, continuous integration, code transpiling, API's.  
             </Styled.Paragraph>
           </Col>
         </Row>
@@ -169,15 +170,10 @@ const About = () => (
             <Styled.SectionHeading
               white
             >
-              Computer &nbsp; 
+              Piece Of &nbsp; 
               <br className="break-large"/>
-              Scientist&nbsp;
-              <span 
-                role="img" 
-                aria-label="Thunderbolt emoji"
-              >
-                👦🏽
-              </span>
+              Paper&nbsp;
+              
             </Styled.SectionHeading>  
           </Col>
           <Col

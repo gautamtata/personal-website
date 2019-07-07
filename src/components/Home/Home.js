@@ -5,7 +5,7 @@ import TextLoop from 'react-text-loop';
 import * as Styled from './Home.style';
 
 import { Linkedin, Github, Medium, Gmail } from '../index';
-import ProfilePic from '../../gautam-1.gif'
+
 
 const Home = () => (
   <React.Fragment>  
@@ -49,7 +49,7 @@ const Home = () => (
                 an Engineer
               </span>
               <span>
-                UI/UX enthusiast
+                a UI/UX enthusiast
               </span>
               <span>
                 a Coffee Lover
