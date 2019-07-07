@@ -5,6 +5,7 @@ import * as Styled from './About.style';
 import Gautam from '../../gautam-1.gif'
 
 const About = () => (
+  
   <Row
     mx={0}
     px={15}
@@ -25,12 +26,47 @@ const About = () => (
         as="header"
         role="banner"
       >
+      <Row
+          mb={{xs:"10px", sm:"20px", lg:"30px", xl:"40px"}}  
+        >
+          <Col
+            xs={1}
+            md={2}
+            display="flex"
+            alignItems="center"
+            justifyContent={{xs: 'left', md: "center"}}
+          >
+           
+          </Col>
+          <Col
+            xs={12}
+            md={8}
+            mt={{xs:"10px", md:"0"}}
+          >
+            <img 
+              src={Gautam} 
+              alt="A black and white of me"
+              style={
+                {
+                  display: 'block',
+                  position: 'static',
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                  width: '100%',
+                  maxWidth: '300px',
+                  margin: '0 auto'
+                }
+              }
+            />     
+          </Col>
+        </Row>
         <Row
           mb={{xs:"30px", sm:"40px", lg:"50px", xl:"60px"}}
         >
           <Col>
             <Styled.SectionHeading
               as="h1"
+              white
             >
               NAMASTE&nbsp;
               <span 
@@ -40,8 +76,8 @@ const About = () => (
                   🙏🏾
               </span>
             </Styled.SectionHeading>
-            <Styled.Paragraph>
-              Hi. Thank you for visiting my website. Here, you can read about my life and maybe get to know me better :) 
+            <Styled.Paragraph white>
+            I'm a full-stack engineer that just graduated from CSU Monterey Bay with a degree in Computer Science. I've built and shipped products for users. I obsess over user experience and I do whatever it takes to deliver reliable, useful software.
             </Styled.Paragraph>
           </Col>
         </Row>
@@ -65,9 +101,9 @@ const About = () => (
             <Styled.SectionHeading
               white
             >
-               Curious&nbsp;
+               The&nbsp;
               <br className="break-large"/>
-              Mind&nbsp;
+              FullStack&nbsp;
              
             </Styled.SectionHeading>
           </Col>
@@ -78,15 +114,20 @@ const About = () => (
             <Styled.Paragraph
               white
             >
-              I started to code very early in my life. I developed my first app in 5th grade of primary school. It was written in QBasic and based on the popular TV Show "Who wants to be a Millionaire".
+              I started coding in my first year in college. Back when I thought that everything ran via an "if-else" block.
               <br/>
               <br/> 
-              Ever since I was a little kid, I was very curious about the world. My favorite subjects in school were mathematics, physics, and programming. I also loved learning about astronomy.
+              I got into frontend developement when I realized there is a need for building amazing user experiences.
+              Currently, Something else that I'm learning is Machine Learning on the client side.
+              <br />
+              Tech Stack : JS, Python, MongoDB, Node.js
             </Styled.Paragraph>
           </Col>
         </Row>
         <Row
         mb={{xs:"30px", sm:"40px", lg:"50px", xl:"60px"}}    
+        backgroundColor="#191919"
+        p={20}
         >
           <Col
           xs={12}
@@ -95,23 +136,17 @@ const About = () => (
           alignItems="center"
           justifyContent={{xs: 'left', md: "center"}}
           >
-            <Styled.SectionHeading>
+            <Styled.SectionHeading white>
               Web&nbsp;
               <br className="break-large"/>
               Developer&nbsp;
-              <span 
-                role="img" 
-                aria-label="Programmer emoji"
-              >
-                👨‍💻
-              </span>
             </Styled.SectionHeading>
           </Col>
           <Col
           xs={12}
           md={8}
           >
-            <Styled.Paragraph>
+            <Styled.Paragraph white>
               I became passionate about Web development after I graduated from college. I started spending a lot of my time online, on websites like TechCrunch and Hacker News. After seeing all those cool apps, innovative startups, and brilliant developers changing our technological landscape on a daily basis, I decided I wanted to become a part of that disruptive movement.
               <br/>
               <br/> 
@@ -134,14 +169,14 @@ const About = () => (
             <Styled.SectionHeading
               white
             >
-              Elec.&nbsp; 
+              Computer &nbsp; 
               <br className="break-large"/>
-              Engineer&nbsp;
+              Scientist&nbsp;
               <span 
                 role="img" 
                 aria-label="Thunderbolt emoji"
               >
-                ⚡
+                👦🏽
               </span>
             </Styled.SectionHeading>  
           </Col>
@@ -152,49 +187,10 @@ const About = () => (
             <Styled.Paragraph
               white
             >
-              I have a Bachelor's degree in Computer Science from the California State University at Monterey Bay.
+             BS Computer Science - CSU Monterey Bay
+              <br />
+             AA Chemistry & Mathematics - Diablo Valley College
             </Styled.Paragraph>
-          </Col>
-        </Row>
-        <Row
-          mb={{xs:"30px", sm:"40px", lg:"50px", xl:"60px"}}  
-        >
-          <Col
-            xs={12}
-            md={4}
-            display="flex"
-            alignItems="center"
-            justifyContent={{xs: 'left', md: "center"}}
-          >
-            <Styled.SectionHeading>
-              Proud&nbsp; 
-              <br className="break-large"/>
-              Father 
-              <span 
-                role="img" 
-                aria-label="Father and son emoji"
-              >
-                👨‍👦
-              </span>
-            </Styled.SectionHeading>  
-          </Col>
-          <Col
-            xs={12}
-            md={8}
-            mt={{xs:"20px", md:"0"}}
-          >
-            <img 
-              src={Gautam} 
-              alt="My son sitting on my shoulders on the shore of river Krka"
-              style={
-                {
-                  display: 'block',
-                  width: '100%',
-                  maxWidth: '400px',
-                  margin: '0 auto'
-                }
-              }
-            />     
           </Col>
         </Row>
         <Row
@@ -215,12 +211,6 @@ const About = () => (
               Favorite&nbsp;
               <br className="break-large"/>
               Quote&nbsp;
-              <span 
-                role="img" 
-                aria-label="Planet earth emoji"
-              >
-                🌍
-              </span>
             </Styled.SectionHeading>
           </Col>
           <Col
@@ -230,26 +220,11 @@ const About = () => (
             <Styled.Paragraph
               white
             >
-              The most inspiring words I ever heard come from the mind of Carl Sagan. He also wrote one of my favorite SciFi novels called "Contact". His reflections are inspired by a photograph of our planet, made by the Voyager 1 space probe as it was leaving our solar system. The photograph is famously known as the "Pale Blue Dot". 
+              "The one's who are crazy enough to change the world are the one's who do."
               <br />
               <br />              
-              The text is too long to copy here, so here's&nbsp;
-              <a 
-                href="https://www.youtube.com/watch?v=GO5FwsblpT8"
-                aria-label="Youtube"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="video-link"
-              >
-                <span
-                  tabIndex="-1"
-                  className="video-link_content"
-                >
-                  a link to a video
-                </span>
-              </a>&nbsp;
-              with him reading  those words, as seen in the last scene of the 2014's "Cosmos: A SpaceTime Odyssey" documentary. Every time I watch it I get goosebumps. It inspires in me both humility and hope for a better tomorrow.
-            </Styled.Paragraph>
+              - Steve Jobs&nbsp;
+                         </Styled.Paragraph>
           </Col>
         </Row>
       </Box>

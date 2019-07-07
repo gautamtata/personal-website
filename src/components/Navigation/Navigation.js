@@ -3,7 +3,7 @@ import { Box } from '@smooth-ui/core-sc';
 import { Link } from 'react-router-dom'; 
 import { withRouter } from 'react-router-dom';
 
-import Logo from './spinning-wheel.png';
+import Logo from '../Logo/logo.svg';
 import * as Styled from './Navigation.style';
 
 const Navigation = ({ location }) => (
@@ -34,7 +34,7 @@ const Navigation = ({ location }) => (
             className='logo'
             alt='logo' 
             style={{"height":"100px","width":"100px"}}
-            src={Logo} />
+            src= {Logo} />
         </span>
       </Styled.LogoLink>
       <Styled.NavList

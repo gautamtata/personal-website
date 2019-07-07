@@ -69,12 +69,6 @@ const Home = () => (
         </Box>
       </Col>
     </Row>
-    <img 
-      className="profile-pic" 
-      alt = "profile-pic" 
-      style = {{"height": "300px","position": "absolute","left": "1000px","bottom": "150px"}}
-      src={ProfilePic}>
-    </img>
     <Row
       mx={0}
       mt={{xs: "20px", md: "35px", lg:"45px"}}

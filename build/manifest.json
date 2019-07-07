@@ -1,6 +1,10 @@
 {
   "short_name": "Portfolio Page",
+<<<<<<< HEAD
   "name": "Gautam Tata Portfolio Page",
+=======
+  "name": "Ivan Špoljarić Portfolio Page",
+>>>>>>> c29afab17260c8edb083dcb17a6c376d894ef616
   "icons": [
     {
       "src": "logo.png",

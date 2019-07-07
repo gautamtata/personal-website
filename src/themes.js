@@ -1,17 +1,17 @@
 const theme = {
   dark: {
-    backgroundColor: '#191919',
+    backgroundColor: 'purple',
     navBackground: 'white',
     navLinkColor: '#191919',
-    logoColor: 'white',
-    color: 'rgba(250, 250, 250, 0.7)'
+    logoColor: 'yellow',
+    color: 'rgba(249, 105, 14, 1)'
   },
   light: {
-    backgroundColor: 'white',
-    navBackground: '#191919',
-    navLinkColor: 'white',  
-    logoColor: 'black',
-    color: 'black'
+    backgroundColor: 'black',
+    navBackground: 'white',
+    navLinkColor: 'black',  
+    logoColor: 'white',
+    color: 'white'
   }
 };
 
