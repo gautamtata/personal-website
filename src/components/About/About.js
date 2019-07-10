@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Row, Col } from '@smooth-ui/core-sc';
 
 import * as Styled from './About.style';
-import Gautam from '../../gautam-1.gif'
+import Gautam from '../../gautam-profile.gif'
 
 const About = () => (
   
