@@ -30,23 +30,23 @@ class Pages extends Component {
               >
                 <Route
                   exact
-                  path="/"
+                  path="/personal-website"
                   component={Home}
                 />  
         
                 <Route 
                   exact 
-                  path="/home" 
+                  path="/personal-website/home" 
                   component={Home}
                 />
                 <Route 
                   exact
-                  path="/about" 
+                  path="/personal-website/about" 
                   component={About}
                 />
                 <Route 
                   exact
-                  path="/portfolio" 
+                  path="/personal-website/portfolio" 
                   component={Portfolio}
                 />
               </Switch>

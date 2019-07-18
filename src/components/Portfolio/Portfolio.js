@@ -77,11 +77,7 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-<<<<<<< HEAD
               src={pgmuseum} 
-=======
-              src={proofchecker} 
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               alt="Screenshot showing landing page of proofchecker"
               style={{
                 width:"100%",
@@ -95,7 +91,6 @@ const Portfolio = () => (
             xs={12}
             xl={6}
             pl={{xl:"30px"}}
-<<<<<<< HEAD
           >     
             <Styled.SectionHeading style = {{"color" : "white"}}>
               Pacific grove climate data viz
@@ -110,24 +105,6 @@ const Portfolio = () => (
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="watershed guardians code"
-=======
-          >
-            <Styled.SectionHeading 
-            style = {{"color" : "white"}}
-            >
-              Logic Proof Checker
-            </Styled.SectionHeading>     
-            
-            <Styled.Paragraph style = {{"color" : "white"}}>
-            A proof checking tool for Logic that saves teaching assistants hours of grading time.
-            </Styled.Paragraph>
-            <Styled.ProjectLinks white>
-              <a 
-                href="https://github.com/gautamtata/logic-proof-checker"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Logic proof checker"
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               >
                 <span
                   className="project-link_content"
@@ -137,27 +114,16 @@ const Portfolio = () => (
                 </span>
               </a>
               <a 
-<<<<<<< HEAD
                 href="https://gautamtata.github.io/watershed-guardians/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="watershed guardians live app"
-=======
-                href="https://gautamtata.github.io/logic-proof-checker/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="proof checker live app"
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               >
                 <span
                   className="project-link_content"
                   tabIndex="-1"
                 >
-<<<<<<< HEAD
                   View Project
-=======
-                  View Demo
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
                 </span>
               </a>
             </Styled.ProjectLinks>
@@ -175,13 +141,8 @@ const Portfolio = () => (
             alignItems= "flex-end"
           >
             <img 
-<<<<<<< HEAD
               src={proofchecker} 
               alt=""
-=======
-              src={pgmuseum} 
-              alt="Pacific grove museum project screenshot"
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               style={{
                 width:"100%",
                 display: "block",
@@ -194,7 +155,6 @@ const Portfolio = () => (
             xs={12}
             xl={6}
             pl={{xl:"30px"}}
-<<<<<<< HEAD
           >
             <Styled.SectionHeading 
             style = {{"color" : "white"}}
@@ -211,22 +171,6 @@ const Portfolio = () => (
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Logic proof checker"
-=======
-          >     
-            <Styled.SectionHeading style = {{"color" : "white"}}>
-              Pacific grove climate data viz
-            </Styled.SectionHeading>  
-            
-            <Styled.Paragraph white>
-            Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
-            </Styled.Paragraph>
-            <Styled.ProjectLinks white>
-              <a 
-                href="https://github.com/gautamtata/watershed-guardians"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="watershed guardians code"
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               >
                 <span
                   className="project-link_content"
@@ -236,27 +180,16 @@ const Portfolio = () => (
                 </span>
               </a>
               <a 
-<<<<<<< HEAD
                 href="https://gautamtata.github.io/logic-proof-checker/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="proof checker live app"
-=======
-                href="https://gautamtata.github.io/watershed-guardians/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="watershed guardians live app"
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               >
                 <span
                   className="project-link_content"
                   tabIndex="-1"
                 >
-<<<<<<< HEAD
                   View Demo
-=======
-                  View Project
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
                 </span>
               </a>
             </Styled.ProjectLinks>
@@ -275,11 +208,7 @@ const Portfolio = () => (
           >
             <img 
               src={carscan} 
-<<<<<<< HEAD
               alt="Pacific grove museum project screenshot"
-=======
-              alt=""
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
               style={{
                 width:"100%",
                 display: "block",

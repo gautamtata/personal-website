@@ -77,11 +77,7 @@ const About = () => (
               </span>
             </Styled.SectionHeading>
             <Styled.Paragraph white>
-<<<<<<< HEAD
-              <b>I'm a full-stack engineer.</b> I've built and shipped products for users. I obsess over user experience and I do whatever it takes to deliver reliable, useful software.
-=======
-            I'm a full-stack engineer that just graduated from CSU Monterey Bay with a degree in Computer Science. I've built and shipped products for users. I obsess over user experience and I do whatever it takes to deliver reliable, useful software.
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
+                <b>I'm a full-stack engineer.</b> I've built and shipped products for users. I obsess over user experience and I do whatever it takes to deliver reliable, useful software.
             </Styled.Paragraph>
           </Col>
         </Row>
@@ -187,11 +183,6 @@ const About = () => (
               white
             >
              BS Computer Science - CSU Monterey Bay
-<<<<<<< HEAD
-=======
-              <br />
-             AA Chemistry & Mathematics - Diablo Valley College
->>>>>>> 04d357282cd94e70fb9383276d34e1bf56a9b352
             </Styled.Paragraph>
           </Col>
         </Row>

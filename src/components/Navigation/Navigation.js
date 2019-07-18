@@ -27,7 +27,7 @@ const Navigation = ({ location }) => (
       > 
       <li>  
           <Link 
-            to="/home"
+            to="/personal-website/home"
             aria-label="About page"
           >
             <span
@@ -40,7 +40,7 @@ const Navigation = ({ location }) => (
         </li>
         <li>  
           <Link 
-            to="/about"
+            to="/personal-website/about"
             aria-label="About page"
           >
             <span
@@ -53,7 +53,7 @@ const Navigation = ({ location }) => (
         </li>
         <li>
           <Link 
-            to="/portfolio"
+            to="/personal-website/portfolio"
             aria-label="Portfolio page"
           >
             <span
