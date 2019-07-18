@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/personal-website/static/media/jsmaps.3b17e72e.png"
   },
   {
-    "revision": "c878d195541aefd0ad5675201a8d7af9",
-    "url": "/personal-website/static/media/gautam-1.c878d195.gif"
+    "revision": "96f0b87f7212ac98a6f95f2360f3598f",
+    "url": "/personal-website/static/media/gautam-profile.96f0b87f.gif"
   },
   {
     "revision": "20db77d812cfcaca8b452b0adc9d6f6a",
@@ -24,15 +24,15 @@ self.__precacheManifest = [
     "url": "/personal-website/static/js/runtime~main.22175ee0.js"
   },
   {
-    "revision": "52bdff765e7489b3ca30",
-    "url": "/personal-website/static/js/main.52bdff76.chunk.js"
+    "revision": "9234d0b4360abce0f2ec",
+    "url": "/personal-website/static/js/main.9234d0b4.chunk.js"
   },
   {
     "revision": "c6bd3079b23c94184e2f",
     "url": "/personal-website/static/js/2.c6bd3079.chunk.js"
   },
   {
-    "revision": "6ba10718b05794e7a79374fb895d005b",
+    "revision": "55de3817c5a75d24c8cb4fe7cb653a87",
     "url": "/personal-website/index.html"
   }
 ];
