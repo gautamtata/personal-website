@@ -14,39 +14,19 @@ class Pages extends Component {
     const { location } = this.props;
     return (
       <Styled.RoutesTransitionWrapper>
-        <TransitionGroup
-          className="transition-group"
-        >
+        <TransitionGroup className="transition-group">
           <CSSTransition
             key={location.key}
             timeout={{ enter: 300, exit: 50 }}
             classNames="fade"
           >
-            <div
-              className="route-section"
-            >
-              <Switch 
-                location={location}
-              >
+            <div className="route-section">
+              <Switch location={location}>
+                <Route exact path="/personal-website/" component={Home} />
+                <Route exact path="/about" component={About} />
                 <Route
                   exact
-                  path="/personal-website"
-                  component={Home}
-                />  
-        
-                <Route 
-                  exact 
-                  path="/personal-website/home" 
-                  component={Home}
-                />
-                <Route 
-                  exact
-                  path="/personal-website/about" 
-                  component={About}
-                />
-                <Route 
-                  exact
-                  path="/personal-website/portfolio" 
+                  path='/portfolio'
                   component={Portfolio}
                 />
               </Switch>
@@ -54,8 +34,8 @@ class Pages extends Component {
           </CSSTransition>
         </TransitionGroup>
       </Styled.RoutesTransitionWrapper>
-    )
+    );
   }
-};
+}
 
 export default withRouter(Pages);

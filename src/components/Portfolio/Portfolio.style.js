@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { Box } from '@smooth-ui/core-sc';
 
 export const Paragraph = styled.p`
-  color: ${props => props.white ? 'rgba(250,250,250,0.7)' : 'rgba(25, 25, 25, 0.8)'};
+  color: ${props =>
+    props.white ? 'rgba(250,250,250,0.7)' : 'rgba(25, 25, 25, 0.8)'};
   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1700 - 320)));
 
   @media (min-width: 1700px) {
@@ -15,12 +16,12 @@ export const Paragraph = styled.p`
 
   a {
     text-decoration: none;
-    user-select: none;  
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
     color: inherit;
 
     :hover {
-      color: ${props => props.email ? '#388e3c' : 'turquoise'};
+      color: ${props => (props.email ? '#388e3c' : 'turquoise')};
 
       /* Block "sticky hover" effect on mobile devices */
       @media (hover: none) {
@@ -37,8 +38,9 @@ export const Paragraph = styled.p`
       outline: none;
 
       .email-link_content {
-        color: ${props => props.email ? '#388e3c' : 'turquoise'};
-        outline: ${props => props.email ? '3px solid #388e3c' : '3px solid turquoise'};
+        color: ${props => (props.email ? '#388e3c' : 'turquoise')};
+        outline: ${props =>
+          props.email ? '3px solid #388e3c' : '3px solid turquoise'};
       }
     }
 
@@ -58,7 +60,7 @@ export const SectionHeading = styled.h2`
   @media (max-width: 320px) {
     font-size: 28px;
   }
-  
+
   color: black;
 `;
 
@@ -83,7 +85,7 @@ export const UsedTech = styled(Box)`
     @media (min-width: 1700px) {
       width: 25px;
     }
-  
+
     @media (max-width: 320px) {
       width: 20px;
     }
@@ -102,7 +104,7 @@ export const ProjectLinks = styled(Box)`
       font-size: 16px;
     }
 
-    user-select: none;  
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
     transition: transform 0.4s ease-in-out;
 
@@ -140,7 +142,7 @@ export const ProjectLinks = styled(Box)`
 
       .project-link_content {
         color: turquoise;
-        outline: 5px solid turquoise;        
+        outline: 5px solid turquoise;
       }
     }
 

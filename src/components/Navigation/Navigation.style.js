@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 export const NavList = styled.ul`
   display: flex;
@@ -19,12 +19,12 @@ export const NavList = styled.ul`
   @media (max-width: 320px) {
     font-size: 18px;
   }
-  
+
   a {
     color: ${props => props.theme.navLinkColor};
     text-decoration: none;
     /* remove blue highlight when clicking quickly on mobile chrome */
-    user-select: none;  
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -32,11 +32,11 @@ export const NavList = styled.ul`
     margin-right: 20px;
     padding: 0px;
 
-    :nth-child(n+1) {
+    :nth-child(n + 1) {
       a {
         display: inline-block;
         transition: transform 0.4s ease-in-out;
-    
+
         :active {
           transform: scale(1.2);
           transition: transform 0s;
@@ -48,15 +48,14 @@ export const NavList = styled.ul`
       a {
         color: ${props => props.theme.navLinkColor};
 
-        
         ${props => {
-            return (
-              props.page === '/' &&
-                css`
-                  color: turquoise;
-                  -webkit-text-stroke: 1px turquoise;
-                `
-            )
+          return (
+            props.page === '/' &&
+            css`
+              color: turquoise;
+              -webkit-text-stroke: 1px turquoise;
+            `
+          );
         }};
       }
     }
@@ -65,15 +64,14 @@ export const NavList = styled.ul`
       a {
         color: ${props => props.theme.navLinkColor};
 
-        
         ${props => {
-            return (
-              props.page === '/about' &&
-                css`
-                  color: turquoise;
-                  -webkit-text-stroke: 1px turquoise;
-                `
-            )
+          return (
+            props.page === '/about' &&
+            css`
+              color: turquoise;
+              -webkit-text-stroke: 1px turquoise;
+            `
+          );
         }};
       }
     }
@@ -82,20 +80,17 @@ export const NavList = styled.ul`
       a {
         color: ${props => props.theme.navLinkColor};
 
-        
         ${props => {
-            return (
-              props.page === '/portfolio' &&
-                css`
-                  color: turquoise;
-                  -webkit-text-stroke: 1px turquoise;
-                `
-            )
+          return (
+            props.page === '/portfolio' &&
+            css`
+              color: turquoise;
+              -webkit-text-stroke: 1px turquoise;
+            `
+          );
         }};
       }
     }
-
-  
 
     :nth-child(1),
     :nth-child(2),
@@ -108,7 +103,7 @@ export const NavList = styled.ul`
         .nav-link_content {
           display: block;
         }
-        
+
         :focus {
           outline: none;
 
@@ -137,7 +132,7 @@ export const NavList = styled.ul`
 export const LogoLink = styled(Link)`
   display: inline-flex;
   /* remove blue highlight when clicking quickly on mobile chrome */
-  user-select: none;  
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
 
   svg {
@@ -149,18 +144,18 @@ export const LogoLink = styled(Link)`
       fill: ${props => props.theme.logoColor};
     }
 
-    transition: transform 0.4s cubic-bezier(.54,.84,.44,.67);
+    transition: transform 0.4s cubic-bezier(0.54, 0.84, 0.44, 0.67);
 
     :active {
       transform: rotate(-360deg);
       transition: transform 0s;
     }
-  
+
     @media (min-width: 576px) {
       height: 60px;
       width: 60px;
     }
-  
+
     @media (min-width: 992px) {
       height: 65px;
       width: 65px;
