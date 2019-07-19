@@ -3,7 +3,7 @@ import { Box } from '@smooth-ui/core-sc';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import * as Styled from './Navigation.style';
-import { Home, About, Portfolio } from '../index';
+
 
 const Navigation = ({ location }) => (
   <Box

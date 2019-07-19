@@ -22,7 +22,7 @@ class Pages extends Component {
           >
             <div className="route-section">
               <Switch location={location}>
-                <Route exact path="/personal-website/" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route
                   exact
