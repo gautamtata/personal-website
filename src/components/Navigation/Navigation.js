@@ -23,7 +23,7 @@ const Navigation = ({ location }) => (
     >
       <Styled.NavList page={location.pathname}>
         <li>
-          <Link to='/personal-website/' aria-label="Home Page">
+          <Link to='/' aria-label="Home Page">
             <span className="nav-link_content" tabIndex="-1">
               Home
             </span>

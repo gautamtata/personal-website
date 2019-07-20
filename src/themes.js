@@ -9,9 +9,9 @@ const theme = {
   light: {
     backgroundColor: 'black',
     navBackground: 'white',
-    navLinkColor: 'black',  
-    logoColor: 'white',
-    color: 'white'
+    navLinkColor: '#191919',
+    logoColor: 'yellow',
+    color: 'turquoise'
   }
 };
 
