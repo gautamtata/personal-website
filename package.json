@@ -1,12 +1,10 @@
 {
-  "homepage": "http://gautamtata.github.io/personal-website/",
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@smooth-ui/core-sc": "^9.0.1",
     "fontfaceobserver": "^2.1.0",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-router-dom": "^4.3.1",
