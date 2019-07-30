@@ -3,7 +3,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
 import * as Styled from './Pages.style';
-import { Home, About, Portfolio } from '../index';
+import { Home, About, Portfolio, Blog } from '../index';
 
 class Pages extends Component {
   componentDidUpdate() {
@@ -29,6 +29,7 @@ class Pages extends Component {
                   path='/portfolio'
                   component={Portfolio}
                 />
+                <Route exact path="/blog" component={Blog} />
               </Switch>
             </div>
           </CSSTransition>

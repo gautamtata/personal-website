@@ -43,6 +43,13 @@ const Navigation = ({ location }) => (
             </span>
           </Link>
         </li>
+        <li>
+          <Link to='/blog' aria-label="Blog Page">
+            <span className="nav-link_content" tabIndex="-1">
+              Blog
+            </span>
+          </Link>
+        </li>
       </Styled.NavList>
     </Box>
   </Box>
