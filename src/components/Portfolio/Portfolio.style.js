@@ -144,6 +144,7 @@ export const ProjectLinks = styled(Box)`
         color: turquoise;
         outline: 5px solid turquoise;
       }
+      
     }
 
     .project-link_content:focus {

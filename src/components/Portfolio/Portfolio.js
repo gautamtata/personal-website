@@ -6,6 +6,7 @@ import proofchecker from '../../img/proofchecker.png';
 import pgmuseum from '../../img/pgmuseum.png';
 import carscan from '../../img/car-scan.gif';
 import jsmaps from '../../img/jsmaps.png';
+import hackernews from '../../img/hackernews.gif'
 
 const Portfolio = () => (
   <Row
@@ -86,6 +87,50 @@ const Portfolio = () => (
                   View Project
                 </span>
               </a>
+            </Styled.ProjectLinks>
+          </Col>
+        </Row>
+        <Row mb={{ xs: '30px', sm: '40px', lg: '50px', xl: '80px' }}>
+          <Col
+            xs={12}
+            mb={{ xs: '15px', xl: '0px' }}
+            xl={6}
+            display="flex"
+            alignItems="flex-end"
+          >
+            <img
+              src={hackernews}
+              alt="GIF showing a live demo of hackernews clone"
+              style={{
+                width: '100%',
+                display: 'block',
+                margin: '0 auto',
+                borderRadius: '5px',
+              }}
+            />
+          </Col>
+          <Col xs={12} xl={6} pl={{ xl: '30px' }}>
+            <Styled.SectionHeading style={{ color: 'white' }}>
+              Convenient Hacker News
+            </Styled.SectionHeading>
+
+            <Styled.Paragraph white>
+              A purely React.js clone of HackerNews which gives the user capability to view the
+              news side by side as a split pane on their screen along with up to date news fetched.
+              <br />  
+              <b style={{color:"white"}}> Live Demo Coming Soon </b>
+            </Styled.Paragraph>
+            <Styled.ProjectLinks white>
+              <a
+                href="https://github.com/gautamtata/convenient-hackerNews"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="watershed guardians code"
+              >
+                <span className="project-link_content" tabIndex="-1">
+                  View Code
+                </span>
+              </a>              
             </Styled.ProjectLinks>
           </Col>
         </Row>
